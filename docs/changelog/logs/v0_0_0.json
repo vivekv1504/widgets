@@ -1,0 +1,28 @@
+{
+  "samples-cc-react-app": {
+    "0.0.0-next.0": {
+      "published_date": 1770015233058,
+      "commits": {
+        "29b763d3e768ed667199db848acacf4723a4cb7f": "docs(user-state): add AI documentation - AGENTS.md and ARCHITECTURE.md (#576)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.15",
+        "@webex/cc-user-state": "1.28.0-next.14",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  },
+  "samples-cc-wc-app": {
+    "0.0.0-next.0": {
+      "published_date": 1770015233061,
+      "commits": {
+        "29b763d3e768ed667199db848acacf4723a4cb7f": "docs(user-state): add AI documentation - AGENTS.md and ARCHITECTURE.md (#576)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.15",
+        "@webex/cc-user-state": "1.28.0-next.14",
+        "samples-cc-react-app": "0.0.0-next.0"
+      }
+    }
+  }
+}

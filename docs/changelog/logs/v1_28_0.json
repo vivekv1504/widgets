@@ -1,0 +1,1277 @@
+{
+  "@webex/cc-components": {
+    "1.28.0-ccconnectors.1": {
+      "published_date": 1763442161148,
+      "commits": {
+        "2a99b703b914e81d5f89f580a1e8e767a65f6aaa": "chore(tooling): cache built distributables for deploy",
+        "0ffe5b41c849df32773ef03521fe0ad03f0c9881": "chore(tooling): dummy change to trigger a publish",
+        "6818129a2b00e0c2a10c7ee7721327a52c9b3ed2": "chore(tooling): remove yarn ws:tools from publish-tag",
+        "a5657fed2c3155fcc823d586642f093bd9a551c4": "chore(tooling): publish-tag on commit to ccwidgets branch",
+        "52f482ac00582a77b7d1e3f914210c05bb5cb33b": "chore(tooling): dummy commit to trigger a publish",
+        "c10ac1175a639c89f30b66839e77cd387cf3e71f": "fix(tooling): deploy action yarn dry run with -W flag",
+        "714cf19e76c56e4161d6e161532476155087964e": "Revert \"chore(tooling): dummy changes to trigger publish\"",
+        "3ced1090cf679b65e842a6ea2b15f72b231ce410": "fix(tooling): remove exec vulnerability in deploy.yml",
+        "2e0f5a79a9593b254add8f7d0494c1c7a9408c47": "chore(tooling): dummy changes to trigger publish",
+        "055166779b6b95d49a38c36f0ade5e5f3857a120": "fix(tooling): optimize build pipeline for deploy",
+        "21b81142cb518ad813ad0370b6321f06309d40d5": "fix(tooling): dont deploy if no changed packages"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-v1.28",
+        "@webex/cc-widgets": "1.28.0-ccwidgets.4",
+        "@webex/cc-station-login": "1.28.0-alpha.11"
+      }
+    },
+    "1.28.0-next.2": {
+      "published_date": 1764078505188,
+      "commits": {
+        "7670b723846c332813209d248e741f07016af943": "chore(docs): update comment in station login (#557)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.2",
+        "@webex/cc-widgets": "1.28.0-next.2",
+        "@webex/cc-station-login": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.2",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.3": {
+      "published_date": 1764079113521,
+      "commits": {
+        "8bb5fbbdb6bac91bd0f67a32352d883dc90681c4": "chore(tooling): trigger PR build (#558)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.3",
+        "@webex/cc-widgets": "1.28.0-next.3",
+        "@webex/cc-station-login": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.3",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.4": {
+      "published_date": 1764597428915,
+      "commits": {
+        "d1240d7a37f55fb306487038a0a13f20c872963d": "fix(spillover-of-outdial): fix-pending-oudial-items (#563)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.4",
+        "@webex/cc-station-login": "1.28.0-next.4",
+        "@webex/cc-store": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.4",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.4",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.5": {
+      "published_date": 1765810888572,
+      "commits": {
+        "99f962d93c622a622717e6842eb28f89eb07974a": "fix(call-timer): resolve-main-consult-conference-hold-timer-discrepancies (#569)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.5",
+        "@webex/cc-station-login": "1.28.0-next.5",
+        "@webex/cc-store": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.5",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.5",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.6": {
+      "published_date": 1766062042163,
+      "commits": {
+        "4413834781f48f954861f496f291fa0913f8b1d3": "fix(ccwidgets): make addressbook enabled by default for outdial (#587)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.6",
+        "@webex/cc-station-login": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.6",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.7": {
+      "published_date": 1767584986922,
+      "commits": {
+        "ab03c0cd6b2010c836974c752c028caa7f2c279e": "feat(call-control): enhance agent name display logic in multi-agent conferences (#585)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.7",
+        "@webex/cc-station-login": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.7",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.8": {
+      "published_date": 1768190752582,
+      "commits": {
+        "b1faaed8a156c517cd9abc5a44d8eb0e4ea87a21": "feat(consult-transfer): consult transfer popover improvements (#570)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.8",
+        "@webex/cc-station-login": "1.28.0-next.8",
+        "@webex/cc-task": "1.28.0-next.8",
+        "@webex/cc-user-state": "1.28.0-next.8",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.9": {
+      "published_date": 1768540290545,
+      "commits": {
+        "23414239d5a0eef13bbdc471436adaef22194896": "fix(task): match OutdialCall UI with Figma (#589)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.9",
+        "@webex/cc-station-login": "1.28.0-next.9",
+        "@webex/cc-task": "1.28.0-next.9",
+        "@webex/cc-user-state": "1.28.0-next.9",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.10": {
+      "published_date": 1768549381632,
+      "commits": {
+        "e1f6e79e37fb2430014fa3a70dee54288afa6b3c": "fix(cc-store): fix store register method error handling (#590)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.10",
+        "@webex/cc-station-login": "1.28.0-next.10",
+        "@webex/cc-store": "1.28.0-next.4",
+        "@webex/cc-task": "1.28.0-next.10",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.4",
+        "@webex/cc-user-state": "1.28.0-next.10",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.11": {
+      "published_date": 1768834696548,
+      "commits": {
+        "8a099e509a5545b0058a81b5c0447ceb1aff2010": "chore(widgets): updated-sdk-version-to-fix-outdial-issue (#601)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.11",
+        "@webex/cc-station-login": "1.28.0-next.11",
+        "@webex/cc-store": "1.28.0-next.5",
+        "@webex/cc-task": "1.28.0-next.11",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.5",
+        "@webex/cc-user-state": "1.28.0-next.11",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.12": {
+      "published_date": 1769526424949,
+      "commits": {
+        "cc52c3cdbed8b4e9fdca52323559a8face5bf0aa": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.3 (#605)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.13",
+        "@webex/cc-station-login": "1.28.0-next.12",
+        "@webex/cc-store": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.13",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.13": {
+      "published_date": 1769534944607,
+      "commits": {
+        "aa6de9aa58f58341f6b9f2eb6b281231df81459e": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.4 (#606)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.14",
+        "@webex/cc-station-login": "1.28.0-next.13",
+        "@webex/cc-store": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.14",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.13",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  },
+  "@webex/cc-widgets": {
+    "1.28.0-ccwidgets.4": {
+      "published_date": 1763442161147,
+      "commits": {
+        "2a99b703b914e81d5f89f580a1e8e767a65f6aaa": "chore(tooling): cache built distributables for deploy",
+        "0ffe5b41c849df32773ef03521fe0ad03f0c9881": "chore(tooling): dummy change to trigger a publish",
+        "6818129a2b00e0c2a10c7ee7721327a52c9b3ed2": "chore(tooling): remove yarn ws:tools from publish-tag",
+        "a5657fed2c3155fcc823d586642f093bd9a551c4": "chore(tooling): publish-tag on commit to ccwidgets branch",
+        "52f482ac00582a77b7d1e3f914210c05bb5cb33b": "chore(tooling): dummy commit to trigger a publish",
+        "c10ac1175a639c89f30b66839e77cd387cf3e71f": "fix(tooling): deploy action yarn dry run with -W flag",
+        "714cf19e76c56e4161d6e161532476155087964e": "Revert \"chore(tooling): dummy changes to trigger publish\"",
+        "3ced1090cf679b65e842a6ea2b15f72b231ce410": "fix(tooling): remove exec vulnerability in deploy.yml",
+        "2e0f5a79a9593b254add8f7d0494c1c7a9408c47": "chore(tooling): dummy changes to trigger publish",
+        "055166779b6b95d49a38c36f0ade5e5f3857a120": "fix(tooling): optimize build pipeline for deploy",
+        "21b81142cb518ad813ad0370b6321f06309d40d5": "fix(tooling): dont deploy if no changed packages"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-v1.28",
+        "@webex/cc-components": "1.28.0-ccconnectors.1",
+        "@webex/cc-station-login": "1.28.0-alpha.11"
+      }
+    },
+    "1.28.0-next.2": {
+      "published_date": 1764078505188,
+      "commits": {
+        "7670b723846c332813209d248e741f07016af943": "chore(docs): update comment in station login (#557)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.2",
+        "@webex/cc-components": "1.28.0-next.2",
+        "@webex/cc-station-login": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.2",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.3": {
+      "published_date": 1764079113520,
+      "commits": {
+        "8bb5fbbdb6bac91bd0f67a32352d883dc90681c4": "chore(tooling): trigger PR build (#558)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.3",
+        "@webex/cc-components": "1.28.0-next.3",
+        "@webex/cc-station-login": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.3",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.4": {
+      "published_date": 1764597428914,
+      "commits": {
+        "d1240d7a37f55fb306487038a0a13f20c872963d": "fix(spillover-of-outdial): fix-pending-oudial-items (#563)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.4",
+        "@webex/cc-station-login": "1.28.0-next.4",
+        "@webex/cc-store": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.4",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.4",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.5": {
+      "published_date": 1765810888571,
+      "commits": {
+        "99f962d93c622a622717e6842eb28f89eb07974a": "fix(call-timer): resolve-main-consult-conference-hold-timer-discrepancies (#569)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.5",
+        "@webex/cc-station-login": "1.28.0-next.5",
+        "@webex/cc-store": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.5",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.5",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.6": {
+      "published_date": 1766062042162,
+      "commits": {
+        "4413834781f48f954861f496f291fa0913f8b1d3": "fix(ccwidgets): make addressbook enabled by default for outdial (#587)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.6",
+        "@webex/cc-station-login": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.6",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.7": {
+      "published_date": 1767584986921,
+      "commits": {
+        "ab03c0cd6b2010c836974c752c028caa7f2c279e": "feat(call-control): enhance agent name display logic in multi-agent conferences (#585)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.7",
+        "@webex/cc-station-login": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.7",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.8": {
+      "published_date": 1768190752581,
+      "commits": {
+        "b1faaed8a156c517cd9abc5a44d8eb0e4ea87a21": "feat(consult-transfer): consult transfer popover improvements (#570)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.8",
+        "@webex/cc-station-login": "1.28.0-next.8",
+        "@webex/cc-task": "1.28.0-next.8",
+        "@webex/cc-user-state": "1.28.0-next.8",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.9": {
+      "published_date": 1768540290544,
+      "commits": {
+        "23414239d5a0eef13bbdc471436adaef22194896": "fix(task): match OutdialCall UI with Figma (#589)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.9",
+        "@webex/cc-station-login": "1.28.0-next.9",
+        "@webex/cc-task": "1.28.0-next.9",
+        "@webex/cc-user-state": "1.28.0-next.9",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.10": {
+      "published_date": 1768549381631,
+      "commits": {
+        "e1f6e79e37fb2430014fa3a70dee54288afa6b3c": "fix(cc-store): fix store register method error handling (#590)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.10",
+        "@webex/cc-station-login": "1.28.0-next.10",
+        "@webex/cc-store": "1.28.0-next.4",
+        "@webex/cc-task": "1.28.0-next.10",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.4",
+        "@webex/cc-user-state": "1.28.0-next.10",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.11": {
+      "published_date": 1768834696545,
+      "commits": {
+        "8a099e509a5545b0058a81b5c0447ceb1aff2010": "chore(widgets): updated-sdk-version-to-fix-outdial-issue (#601)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.11",
+        "@webex/cc-station-login": "1.28.0-next.11",
+        "@webex/cc-store": "1.28.0-next.5",
+        "@webex/cc-task": "1.28.0-next.11",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.5",
+        "@webex/cc-user-state": "1.28.0-next.11",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.12": {
+      "published_date": 1769515448898,
+      "commits": {
+        "a836d0a9b69a00dfab96c93c75655b5b051e7feb": "fix(task-util): disable end button during conference with active consult (#600)"
+      },
+      "alongWith": {
+        "@webex/cc-task": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.13": {
+      "published_date": 1769526424948,
+      "commits": {
+        "cc52c3cdbed8b4e9fdca52323559a8face5bf0aa": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.3 (#605)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.12",
+        "@webex/cc-station-login": "1.28.0-next.12",
+        "@webex/cc-store": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.13",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.14": {
+      "published_date": 1769534944606,
+      "commits": {
+        "aa6de9aa58f58341f6b9f2eb6b281231df81459e": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.4 (#606)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.13",
+        "@webex/cc-station-login": "1.28.0-next.13",
+        "@webex/cc-store": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.14",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.13",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.15": {
+      "published_date": 1770015233060,
+      "commits": {
+        "29b763d3e768ed667199db848acacf4723a4cb7f": "docs(user-state): add AI documentation - AGENTS.md and ARCHITECTURE.md (#576)"
+      },
+      "alongWith": {
+        "@webex/cc-user-state": "1.28.0-next.14",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  },
+  "@webex/cc-station-login": {
+    "1.28.0-alpha.11": {
+      "published_date": 1763442161148,
+      "commits": {
+        "2a99b703b914e81d5f89f580a1e8e767a65f6aaa": "chore(tooling): cache built distributables for deploy",
+        "0ffe5b41c849df32773ef03521fe0ad03f0c9881": "chore(tooling): dummy change to trigger a publish",
+        "6818129a2b00e0c2a10c7ee7721327a52c9b3ed2": "chore(tooling): remove yarn ws:tools from publish-tag",
+        "a5657fed2c3155fcc823d586642f093bd9a551c4": "chore(tooling): publish-tag on commit to ccwidgets branch",
+        "52f482ac00582a77b7d1e3f914210c05bb5cb33b": "chore(tooling): dummy commit to trigger a publish",
+        "c10ac1175a639c89f30b66839e77cd387cf3e71f": "fix(tooling): deploy action yarn dry run with -W flag",
+        "714cf19e76c56e4161d6e161532476155087964e": "Revert \"chore(tooling): dummy changes to trigger publish\"",
+        "3ced1090cf679b65e842a6ea2b15f72b231ce410": "fix(tooling): remove exec vulnerability in deploy.yml",
+        "2e0f5a79a9593b254add8f7d0494c1c7a9408c47": "chore(tooling): dummy changes to trigger publish",
+        "055166779b6b95d49a38c36f0ade5e5f3857a120": "fix(tooling): optimize build pipeline for deploy",
+        "21b81142cb518ad813ad0370b6321f06309d40d5": "fix(tooling): dont deploy if no changed packages"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-v1.28",
+        "@webex/cc-components": "1.28.0-ccconnectors.1",
+        "@webex/cc-widgets": "1.28.0-ccwidgets.4"
+      }
+    },
+    "1.28.0-next.2": {
+      "published_date": 1764078505187,
+      "commits": {
+        "7670b723846c332813209d248e741f07016af943": "chore(docs): update comment in station login (#557)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.2",
+        "@webex/cc-components": "1.28.0-next.2",
+        "@webex/cc-widgets": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.2",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.3": {
+      "published_date": 1764079113520,
+      "commits": {
+        "8bb5fbbdb6bac91bd0f67a32352d883dc90681c4": "chore(tooling): trigger PR build (#558)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.3",
+        "@webex/cc-components": "1.28.0-next.3",
+        "@webex/cc-widgets": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.3",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.4": {
+      "published_date": 1764597428914,
+      "commits": {
+        "d1240d7a37f55fb306487038a0a13f20c872963d": "fix(spillover-of-outdial): fix-pending-oudial-items (#563)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.4",
+        "@webex/cc-widgets": "1.28.0-next.4",
+        "@webex/cc-store": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.4",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.4",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.5": {
+      "published_date": 1765810888571,
+      "commits": {
+        "99f962d93c622a622717e6842eb28f89eb07974a": "fix(call-timer): resolve-main-consult-conference-hold-timer-discrepancies (#569)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.5",
+        "@webex/cc-widgets": "1.28.0-next.5",
+        "@webex/cc-store": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.5",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.5",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.6": {
+      "published_date": 1766062042162,
+      "commits": {
+        "4413834781f48f954861f496f291fa0913f8b1d3": "fix(ccwidgets): make addressbook enabled by default for outdial (#587)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.6",
+        "@webex/cc-widgets": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.6",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.7": {
+      "published_date": 1767584986921,
+      "commits": {
+        "ab03c0cd6b2010c836974c752c028caa7f2c279e": "feat(call-control): enhance agent name display logic in multi-agent conferences (#585)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.7",
+        "@webex/cc-widgets": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.7",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.8": {
+      "published_date": 1768190752581,
+      "commits": {
+        "b1faaed8a156c517cd9abc5a44d8eb0e4ea87a21": "feat(consult-transfer): consult transfer popover improvements (#570)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.8",
+        "@webex/cc-widgets": "1.28.0-next.8",
+        "@webex/cc-task": "1.28.0-next.8",
+        "@webex/cc-user-state": "1.28.0-next.8",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.9": {
+      "published_date": 1768540290544,
+      "commits": {
+        "23414239d5a0eef13bbdc471436adaef22194896": "fix(task): match OutdialCall UI with Figma (#589)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.9",
+        "@webex/cc-widgets": "1.28.0-next.9",
+        "@webex/cc-task": "1.28.0-next.9",
+        "@webex/cc-user-state": "1.28.0-next.9",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.10": {
+      "published_date": 1768549381631,
+      "commits": {
+        "e1f6e79e37fb2430014fa3a70dee54288afa6b3c": "fix(cc-store): fix store register method error handling (#590)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.10",
+        "@webex/cc-widgets": "1.28.0-next.10",
+        "@webex/cc-store": "1.28.0-next.4",
+        "@webex/cc-task": "1.28.0-next.10",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.4",
+        "@webex/cc-user-state": "1.28.0-next.10",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.11": {
+      "published_date": 1768834696544,
+      "commits": {
+        "8a099e509a5545b0058a81b5c0447ceb1aff2010": "chore(widgets): updated-sdk-version-to-fix-outdial-issue (#601)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.11",
+        "@webex/cc-widgets": "1.28.0-next.11",
+        "@webex/cc-store": "1.28.0-next.5",
+        "@webex/cc-task": "1.28.0-next.11",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.5",
+        "@webex/cc-user-state": "1.28.0-next.11",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.12": {
+      "published_date": 1769526424948,
+      "commits": {
+        "cc52c3cdbed8b4e9fdca52323559a8face5bf0aa": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.3 (#605)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.12",
+        "@webex/cc-widgets": "1.28.0-next.13",
+        "@webex/cc-store": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.13",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.13": {
+      "published_date": 1769534944606,
+      "commits": {
+        "aa6de9aa58f58341f6b9f2eb6b281231df81459e": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.4 (#606)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.13",
+        "@webex/cc-widgets": "1.28.0-next.14",
+        "@webex/cc-store": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.14",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.13",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  },
+  "@webex/cc-user-state": {
+    "1.28.0-next.2": {
+      "published_date": 1764078505187,
+      "commits": {
+        "7670b723846c332813209d248e741f07016af943": "chore(docs): update comment in station login (#557)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.2",
+        "@webex/cc-components": "1.28.0-next.2",
+        "@webex/cc-widgets": "1.28.0-next.2",
+        "@webex/cc-station-login": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.2",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.3": {
+      "published_date": 1764079113519,
+      "commits": {
+        "8bb5fbbdb6bac91bd0f67a32352d883dc90681c4": "chore(tooling): trigger PR build (#558)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.3",
+        "@webex/cc-components": "1.28.0-next.3",
+        "@webex/cc-widgets": "1.28.0-next.3",
+        "@webex/cc-station-login": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.3",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.4": {
+      "published_date": 1764597428907,
+      "commits": {
+        "d1240d7a37f55fb306487038a0a13f20c872963d": "fix(spillover-of-outdial): fix-pending-oudial-items (#563)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.4",
+        "@webex/cc-widgets": "1.28.0-next.4",
+        "@webex/cc-station-login": "1.28.0-next.4",
+        "@webex/cc-store": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.4",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.2",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.5": {
+      "published_date": 1765810888568,
+      "commits": {
+        "99f962d93c622a622717e6842eb28f89eb07974a": "fix(call-timer): resolve-main-consult-conference-hold-timer-discrepancies (#569)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.5",
+        "@webex/cc-widgets": "1.28.0-next.5",
+        "@webex/cc-station-login": "1.28.0-next.5",
+        "@webex/cc-store": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.5",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.3",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.6": {
+      "published_date": 1766062042160,
+      "commits": {
+        "4413834781f48f954861f496f291fa0913f8b1d3": "fix(ccwidgets): make addressbook enabled by default for outdial (#587)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.6",
+        "@webex/cc-widgets": "1.28.0-next.6",
+        "@webex/cc-station-login": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.6",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.7": {
+      "published_date": 1767584986919,
+      "commits": {
+        "ab03c0cd6b2010c836974c752c028caa7f2c279e": "feat(call-control): enhance agent name display logic in multi-agent conferences (#585)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.7",
+        "@webex/cc-widgets": "1.28.0-next.7",
+        "@webex/cc-station-login": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.7",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.8": {
+      "published_date": 1768190752579,
+      "commits": {
+        "b1faaed8a156c517cd9abc5a44d8eb0e4ea87a21": "feat(consult-transfer): consult transfer popover improvements (#570)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.8",
+        "@webex/cc-widgets": "1.28.0-next.8",
+        "@webex/cc-station-login": "1.28.0-next.8",
+        "@webex/cc-task": "1.28.0-next.8",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.9": {
+      "published_date": 1768540290542,
+      "commits": {
+        "23414239d5a0eef13bbdc471436adaef22194896": "fix(task): match OutdialCall UI with Figma (#589)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.9",
+        "@webex/cc-widgets": "1.28.0-next.9",
+        "@webex/cc-station-login": "1.28.0-next.9",
+        "@webex/cc-task": "1.28.0-next.9",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.10": {
+      "published_date": 1768549381627,
+      "commits": {
+        "e1f6e79e37fb2430014fa3a70dee54288afa6b3c": "fix(cc-store): fix store register method error handling (#590)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.10",
+        "@webex/cc-widgets": "1.28.0-next.10",
+        "@webex/cc-station-login": "1.28.0-next.10",
+        "@webex/cc-store": "1.28.0-next.4",
+        "@webex/cc-task": "1.28.0-next.10",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.4",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.11": {
+      "published_date": 1768834696539,
+      "commits": {
+        "8a099e509a5545b0058a81b5c0447ceb1aff2010": "chore(widgets): updated-sdk-version-to-fix-outdial-issue (#601)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.11",
+        "@webex/cc-widgets": "1.28.0-next.11",
+        "@webex/cc-station-login": "1.28.0-next.11",
+        "@webex/cc-store": "1.28.0-next.5",
+        "@webex/cc-task": "1.28.0-next.11",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.5",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.12": {
+      "published_date": 1769526424944,
+      "commits": {
+        "cc52c3cdbed8b4e9fdca52323559a8face5bf0aa": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.3 (#605)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.12",
+        "@webex/cc-widgets": "1.28.0-next.13",
+        "@webex/cc-station-login": "1.28.0-next.12",
+        "@webex/cc-store": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.13",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.6",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.13": {
+      "published_date": 1769534944601,
+      "commits": {
+        "aa6de9aa58f58341f6b9f2eb6b281231df81459e": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.4 (#606)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.13",
+        "@webex/cc-widgets": "1.28.0-next.14",
+        "@webex/cc-station-login": "1.28.0-next.13",
+        "@webex/cc-store": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.14",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.7",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.14": {
+      "published_date": 1770015233058,
+      "commits": {
+        "29b763d3e768ed667199db848acacf4723a4cb7f": "docs(user-state): add AI documentation - AGENTS.md and ARCHITECTURE.md (#576)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.15",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  },
+  "@webex/cc-task": {
+    "1.28.0-next.2": {
+      "published_date": 1764078505187,
+      "commits": {
+        "7670b723846c332813209d248e741f07016af943": "chore(docs): update comment in station login (#557)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.2",
+        "@webex/cc-components": "1.28.0-next.2",
+        "@webex/cc-widgets": "1.28.0-next.2",
+        "@webex/cc-station-login": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.2",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.3": {
+      "published_date": 1764079113519,
+      "commits": {
+        "8bb5fbbdb6bac91bd0f67a32352d883dc90681c4": "chore(tooling): trigger PR build (#558)"
+      },
+      "alongWith": {
+        "@webex/widgets": "1.28.2-next.3",
+        "@webex/cc-components": "1.28.0-next.3",
+        "@webex/cc-widgets": "1.28.0-next.3",
+        "@webex/cc-station-login": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.3",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0",
+        "samples-meeting-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.4": {
+      "published_date": 1764597428913,
+      "commits": {
+        "d1240d7a37f55fb306487038a0a13f20c872963d": "fix(spillover-of-outdial): fix-pending-oudial-items (#563)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.4",
+        "@webex/cc-widgets": "1.28.0-next.4",
+        "@webex/cc-station-login": "1.28.0-next.4",
+        "@webex/cc-store": "1.28.0-next.2",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.4",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.5": {
+      "published_date": 1765810888570,
+      "commits": {
+        "99f962d93c622a622717e6842eb28f89eb07974a": "fix(call-timer): resolve-main-consult-conference-hold-timer-discrepancies (#569)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.5",
+        "@webex/cc-widgets": "1.28.0-next.5",
+        "@webex/cc-station-login": "1.28.0-next.5",
+        "@webex/cc-store": "1.28.0-next.3",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.5",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.6": {
+      "published_date": 1766062042162,
+      "commits": {
+        "4413834781f48f954861f496f291fa0913f8b1d3": "fix(ccwidgets): make addressbook enabled by default for outdial (#587)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.6",
+        "@webex/cc-widgets": "1.28.0-next.6",
+        "@webex/cc-station-login": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.6",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.7": {
+      "published_date": 1767584986920,
+      "commits": {
+        "ab03c0cd6b2010c836974c752c028caa7f2c279e": "feat(call-control): enhance agent name display logic in multi-agent conferences (#585)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.7",
+        "@webex/cc-widgets": "1.28.0-next.7",
+        "@webex/cc-station-login": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.7",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.8": {
+      "published_date": 1768190752580,
+      "commits": {
+        "b1faaed8a156c517cd9abc5a44d8eb0e4ea87a21": "feat(consult-transfer): consult transfer popover improvements (#570)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.8",
+        "@webex/cc-widgets": "1.28.0-next.8",
+        "@webex/cc-station-login": "1.28.0-next.8",
+        "@webex/cc-user-state": "1.28.0-next.8",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.9": {
+      "published_date": 1768540290543,
+      "commits": {
+        "23414239d5a0eef13bbdc471436adaef22194896": "fix(task): match OutdialCall UI with Figma (#589)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.9",
+        "@webex/cc-widgets": "1.28.0-next.9",
+        "@webex/cc-station-login": "1.28.0-next.9",
+        "@webex/cc-user-state": "1.28.0-next.9",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.10": {
+      "published_date": 1768549381629,
+      "commits": {
+        "e1f6e79e37fb2430014fa3a70dee54288afa6b3c": "fix(cc-store): fix store register method error handling (#590)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.10",
+        "@webex/cc-widgets": "1.28.0-next.10",
+        "@webex/cc-station-login": "1.28.0-next.10",
+        "@webex/cc-store": "1.28.0-next.4",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.4",
+        "@webex/cc-user-state": "1.28.0-next.10",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.11": {
+      "published_date": 1768834696543,
+      "commits": {
+        "8a099e509a5545b0058a81b5c0447ceb1aff2010": "chore(widgets): updated-sdk-version-to-fix-outdial-issue (#601)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.11",
+        "@webex/cc-widgets": "1.28.0-next.11",
+        "@webex/cc-station-login": "1.28.0-next.11",
+        "@webex/cc-store": "1.28.0-next.5",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.5",
+        "@webex/cc-user-state": "1.28.0-next.11",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.12": {
+      "published_date": 1769515448897,
+      "commits": {
+        "a836d0a9b69a00dfab96c93c75655b5b051e7feb": "fix(task-util): disable end button during conference with active consult (#600)"
+      },
+      "alongWith": {
+        "@webex/cc-widgets": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.13": {
+      "published_date": 1769526424946,
+      "commits": {
+        "cc52c3cdbed8b4e9fdca52323559a8face5bf0aa": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.3 (#605)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.12",
+        "@webex/cc-widgets": "1.28.0-next.13",
+        "@webex/cc-station-login": "1.28.0-next.12",
+        "@webex/cc-store": "1.28.0-next.6",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.14": {
+      "published_date": 1769534944604,
+      "commits": {
+        "aa6de9aa58f58341f6b9f2eb6b281231df81459e": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.4 (#606)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.13",
+        "@webex/cc-widgets": "1.28.0-next.14",
+        "@webex/cc-station-login": "1.28.0-next.13",
+        "@webex/cc-store": "1.28.0-next.7",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.13",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  },
+  "@webex/cc-ui-logging": {
+    "1.28.0-next.2": {
+      "published_date": 1764597428908,
+      "commits": {
+        "d1240d7a37f55fb306487038a0a13f20c872963d": "fix(spillover-of-outdial): fix-pending-oudial-items (#563)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.4",
+        "@webex/cc-widgets": "1.28.0-next.4",
+        "@webex/cc-station-login": "1.28.0-next.4",
+        "@webex/cc-store": "1.28.0-next.2",
+        "@webex/cc-task": "1.28.0-next.4",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-user-state": "1.28.0-next.4",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.3": {
+      "published_date": 1765810888569,
+      "commits": {
+        "99f962d93c622a622717e6842eb28f89eb07974a": "fix(call-timer): resolve-main-consult-conference-hold-timer-discrepancies (#569)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.5",
+        "@webex/cc-widgets": "1.28.0-next.5",
+        "@webex/cc-station-login": "1.28.0-next.5",
+        "@webex/cc-store": "1.28.0-next.3",
+        "@webex/cc-task": "1.28.0-next.5",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-user-state": "1.28.0-next.5",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.4": {
+      "published_date": 1768549381628,
+      "commits": {
+        "e1f6e79e37fb2430014fa3a70dee54288afa6b3c": "fix(cc-store): fix store register method error handling (#590)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.10",
+        "@webex/cc-widgets": "1.28.0-next.10",
+        "@webex/cc-station-login": "1.28.0-next.10",
+        "@webex/cc-store": "1.28.0-next.4",
+        "@webex/cc-task": "1.28.0-next.10",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-user-state": "1.28.0-next.10",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.5": {
+      "published_date": 1768834696541,
+      "commits": {
+        "8a099e509a5545b0058a81b5c0447ceb1aff2010": "chore(widgets): updated-sdk-version-to-fix-outdial-issue (#601)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.11",
+        "@webex/cc-widgets": "1.28.0-next.11",
+        "@webex/cc-station-login": "1.28.0-next.11",
+        "@webex/cc-store": "1.28.0-next.5",
+        "@webex/cc-task": "1.28.0-next.11",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-user-state": "1.28.0-next.11",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.6": {
+      "published_date": 1769526424945,
+      "commits": {
+        "cc52c3cdbed8b4e9fdca52323559a8face5bf0aa": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.3 (#605)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.12",
+        "@webex/cc-widgets": "1.28.0-next.13",
+        "@webex/cc-station-login": "1.28.0-next.12",
+        "@webex/cc-store": "1.28.0-next.6",
+        "@webex/cc-task": "1.28.0-next.13",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-user-state": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.7": {
+      "published_date": 1769534944603,
+      "commits": {
+        "aa6de9aa58f58341f6b9f2eb6b281231df81459e": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.4 (#606)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.13",
+        "@webex/cc-widgets": "1.28.0-next.14",
+        "@webex/cc-station-login": "1.28.0-next.13",
+        "@webex/cc-store": "1.28.0-next.7",
+        "@webex/cc-task": "1.28.0-next.14",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-user-state": "1.28.0-next.13",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  },
+  "@webex/cc-store": {
+    "1.28.0-next.2": {
+      "published_date": 1764597428913,
+      "commits": {
+        "d1240d7a37f55fb306487038a0a13f20c872963d": "fix(spillover-of-outdial): fix-pending-oudial-items (#563)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.4",
+        "@webex/cc-widgets": "1.28.0-next.4",
+        "@webex/cc-station-login": "1.28.0-next.4",
+        "@webex/cc-task": "1.28.0-next.4",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.2",
+        "@webex/cc-user-state": "1.28.0-next.4",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.3": {
+      "published_date": 1765810888570,
+      "commits": {
+        "99f962d93c622a622717e6842eb28f89eb07974a": "fix(call-timer): resolve-main-consult-conference-hold-timer-discrepancies (#569)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.5",
+        "@webex/cc-widgets": "1.28.0-next.5",
+        "@webex/cc-station-login": "1.28.0-next.5",
+        "@webex/cc-task": "1.28.0-next.5",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.3",
+        "@webex/cc-user-state": "1.28.0-next.5",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.4": {
+      "published_date": 1768549381630,
+      "commits": {
+        "e1f6e79e37fb2430014fa3a70dee54288afa6b3c": "fix(cc-store): fix store register method error handling (#590)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.10",
+        "@webex/cc-widgets": "1.28.0-next.10",
+        "@webex/cc-station-login": "1.28.0-next.10",
+        "@webex/cc-task": "1.28.0-next.10",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.4",
+        "@webex/cc-user-state": "1.28.0-next.10",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.5": {
+      "published_date": 1768834696544,
+      "commits": {
+        "8a099e509a5545b0058a81b5c0447ceb1aff2010": "chore(widgets): updated-sdk-version-to-fix-outdial-issue (#601)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.11",
+        "@webex/cc-widgets": "1.28.0-next.11",
+        "@webex/cc-station-login": "1.28.0-next.11",
+        "@webex/cc-task": "1.28.0-next.11",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.5",
+        "@webex/cc-user-state": "1.28.0-next.11",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.6": {
+      "published_date": 1769526424946,
+      "commits": {
+        "cc52c3cdbed8b4e9fdca52323559a8face5bf0aa": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.3 (#605)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.12",
+        "@webex/cc-widgets": "1.28.0-next.13",
+        "@webex/cc-station-login": "1.28.0-next.12",
+        "@webex/cc-task": "1.28.0-next.13",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.6",
+        "@webex/cc-user-state": "1.28.0-next.12",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    },
+    "1.28.0-next.7": {
+      "published_date": 1769534944604,
+      "commits": {
+        "aa6de9aa58f58341f6b9f2eb6b281231df81459e": "chore(cc-store): bump @webex/contact-center to v3.11.0-next.4 (#606)"
+      },
+      "alongWith": {
+        "@webex/cc-components": "1.28.0-next.13",
+        "@webex/cc-widgets": "1.28.0-next.14",
+        "@webex/cc-station-login": "1.28.0-next.13",
+        "@webex/cc-task": "1.28.0-next.14",
+        "@webex/test-fixtures": "0.0.0-next.0",
+        "@webex/cc-ui-logging": "1.28.0-next.7",
+        "@webex/cc-user-state": "1.28.0-next.13",
+        "samples-cc-react-app": "0.0.0-next.0",
+        "samples-cc-wc-app": "0.0.0-next.0"
+      }
+    }
+  }
+}
